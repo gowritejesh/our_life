@@ -10019,3 +10019,18 @@ fieldset:disabled .btn {
     display: none !important;
   }
 }
+
+.vision {
+  width: 28rem;
+}
+
+@media (max-width: 768px) {
+  .vision {
+    width: 18rem;
+  }
+}
+@media (max-width: 768px) {
+  .homeBanner {
+    display: none;
+  }
+}
